@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(20, 24, 51);
+    color: white;
+    position: relative;
+}
+.header{
+    padding: 30px 60px 30px 60px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left p{
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.nav-left{
+    display: flex;
+    gap: 80px;
+}
+.nav-left img {
+    height: 70px;
+    width: 160px;
+    margin-top: -10px;
+}
+.input-field{
+    height: 30px;
+    background-color: rgb(41, 49, 101);
+    border-radius: 50px;
+    
+}
+.input-field input{
+    all: unset;
+    color: rgb(248, 249, 250);
+}
+.form button{
+    background: transparent;
+    border: none;
+}
+.form button i{
+    margin-top: 5px;
+}
+.form {
+    margin: 0;
+}
+.form input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+i{
+    margin: 0px 10px;
+    font-size: 20px;
+}
+.fa-solid fa-bell{
+    height: 30px;
+}
+.nav-right{
+    display: flex;
+    gap: 40px;
+}
+.Martin{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: -10px;
+}
+.body{
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.upper-half{
+    display: flex;
+}
+.upper-left{
+    display: flex;
+    width: 70%;
+    background-color:  rgb(32, 38, 80);
+    
+}
+.poster {
+    width: 40%;
+}
+.poster img{
+    width: 100%;
+    height: 100%;
+}
+.info{
+    width: 60%;
+    padding: 60px 15px 10px 30px ;
+}
+.para{
+    padding: 15px 0px 0px 0px;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.foot{
+    display: flex;
+    padding-top: 40px;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+.track{
+    display: flex;
+    flex-direction: column;
+}
+.play-all{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    background-image: linear-gradient(to right, rgb(42, 42, 132),rgb(67, 85, 204),  rgb(244, 116, 184));
+    color: white;
+}
+.track p{
+    font-size: 15px;
+}
+.follow{
+    margin-top: 10px;
+}
+
+/*upper-right design*/
+.upper-rightside-container{
+    display: flex;
+    flex-direction: column;
+}
+.upper-right{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+   
+    padding: 10px 0px 0px 15px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.similar-artist{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+    
+}
+.similar-artist-list{
+    display: flex;
+    gap: 25px;
+}
+.upper-rightside-container{
+    margin-top: 20px;
+}
+.upper-rightside-img{
+    width: 25%;
+}
+.col-flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.col-flex h3{
+    font-size: 15px;
+}
+.col-flex p{
+    font-size: 13px;
+}
+
+/*Body Lower Half*/
+.lower-half{
+    margin-top: 18px;
+    display: flex;
+    
+}
+.lower-half-left{
+    width: 70%;
+}
+.music-list{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    padding: 0px 20px;
+    background-color:  rgb(27, 35, 78);
+}
+.music-list-img{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.left{
+    display: flex;
+    gap: 15px;
+}
+.left>p{
+    margin-top: 25px;
+}
+.title{
+    margin-top: 15px;
+}
+.right{
+    margin-top: 20px;
+}
+
+.lower-half-right{
+    width: 30%;
+    padding-left: 15px;
+    
+}
+.recently-played{
+    display: flex;
+}
+.recently-played-list{
+    display: flex;
+    flex-direction: column;
+    
+}
+.recently-played{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding: 0px 15px;
+    
+}
+.recently-played-title{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+/*Footer Section*/
+.footer{
+    padding-left: 110px;
+    padding-right: 110px;
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+    
+    top: 624px;
+    
+}
+.foot-left{
+    display: flex;
+    gap: 10px;
+}
+.foot-mid{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    gap: 15px;
+}
+.foot-mid-top{
+    margin-left: 100px;
+}
+
+.external{
+    height: 5px;
+    width: 400px;
+    background-color: rgb(112, 110, 110);
+    border-radius: 2.5px;
+}
+.internal{
+    height: 5px;
+    width: 200px;
+    background-color: rgb(81, 237, 79);
+    border-radius: 2.5px;
+}
+
+.circle{
+    height: 12px;
+    width: 12px;
+    margin-left: 195px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+    margin-top: -8px;
+    background-color: antiquewhite;
+}
+.foot-mid-bottom{
+    display: flex;
+    gap: 15px;
+}
+.foot-mid-bottom p{
+    margin-top: -3px;
+    font-size: 10px;
+}
+.foot-right-external{
+    height: 5px;
+    width: 80px;
+    background-color: rgb(112, 110, 110);
+    border-radius: 2.5px;
+    margin-top: 5px;
+}
+.foot-right-internal{
+    height: 5px;
+    width: 40px;
+    background-color: rgb(81, 237, 79);
+    border-radius: 2.5px;
+}
+
+.foot-right-circle{
+    height: 12px;
+    width: 12px;
+    margin-left: 35px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+    margin-top: -8px;
+    background-color: antiquewhite;
+}
+.foot-right{
+    display: flex;
+    margin-top: 25px;
+}
